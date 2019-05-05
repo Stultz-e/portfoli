@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cstultz87/portfoli/issues"
   },
-  "homepage": "https://github.com/cstultz87/portfoli#readme"
+  "homepage": "https://github.com/cstultz87/portfoli#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1"
+  }
 }
