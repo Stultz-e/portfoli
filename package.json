@@ -1,22 +1,11 @@
 {
   "name": "portfoli",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cstultz87/portfoli.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cstultz87/portfoli/issues"
-  },
-  "homepage": "https://github.com/cstultz87/portfoli#readme",
   "devDependencies": {
-    "gulp": "^4.0.1"
+    "gulp": "^4.0.1",
+    "gulp-watch": "^5.0.1"
   }
 }
