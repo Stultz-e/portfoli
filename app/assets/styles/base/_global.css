@@ -2,15 +2,25 @@ html {
     font-size: 62.5%;
 }
 
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
 body {
     font-family: 'lato', sans-serif;
     height: 100%;
 }
-
 
 img {
     max-width: 100%;
     height: auto;
 }
 
+.mb-md {
+    margin-top: 7.5rem;
+}
 
+.ml-md {
+    margin-left: 5.5rem;
+}
