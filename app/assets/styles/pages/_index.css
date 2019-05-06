@@ -1,0 +1,55 @@
+.cover {
+    background-image: url('/assets/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.projects {
+    max-width: 70%;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    padding-top: 12rem;
+
+    &__content {
+        display: flex;
+       
+        img {
+            flex: 1 0 auto;
+            padding-right: 8rem;
+        }
+
+        .text {
+            h2 {
+                line-height: .5;
+                text-align: left;
+                margin-bottom: 2rem;
+            }
+
+            span {
+                font-size: 1.6rem;
+                text-transform: uppercase;
+                color: #000;
+            }
+
+            &__details {
+                display: flex;
+                align-items: center;
+
+            }
+
+        }
+    }
+}
+
