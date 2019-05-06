@@ -521,7 +521,7 @@ img {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        padding: 12rem;
+        padding: 12rem 0;
     }
 
 .projects__content:nth-child(1) {
@@ -534,7 +534,6 @@ img {
                 -ms-flex-flow: row-reverse;
                     flex-flow: row-reverse;
             background: #f6f6f6;
-            padding: 12rem 0;
         }
 
 .projects__content .image-wrapper {
@@ -569,16 +568,19 @@ img {
         }
 
 .projects__content .text { 
-            margin-left: 7rem;
+             margin-left: 7rem;
         }
 
 .projects__content .text:nth-child(even)  {
                 margin-right: 7rem;
             }
 
+.projects__content .text:nth-child(odd)  {
+   
+            }
+
 .projects__content .text h2 {
                 line-height: 1;
-                text-align: left;
             }
 
 .projects__content .text span {

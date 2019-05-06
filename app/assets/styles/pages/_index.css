@@ -24,7 +24,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 12rem;
+        padding: 12rem 0;
 
         &:nth-child(1) {
             padding-top: 0;
@@ -33,7 +33,6 @@
         &:nth-child(even) {
             flex-flow: row-reverse;
             background: #f6f6f6;
-            padding: 12rem 0;
         }
 
         .image-wrapper {
@@ -60,15 +59,17 @@
         }
 
         .text { 
-            margin-left: 7rem;
-         
+             margin-left: 7rem;
             &:nth-child(even)  {
                 margin-right: 7rem;
+            }
+
+            &:nth-child(odd)  {
+   
             }
             
             h2 {
                 line-height: 1;
-                text-align: left;
             }
 
             span {
