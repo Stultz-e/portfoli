@@ -452,6 +452,18 @@ template {
 
 html {
     font-size: 62.5%;
+
+    @mixin atSmall {
+        font-size: 62.5%;
+    }
+
+    @mixin atMedium {
+        font-size: 62.5%;
+    }
+
+    @mixin atLarge {
+        font-size: 62.5%;
+    }
 }
 
 a {
@@ -475,6 +487,24 @@ img {
 
 .ml-md {
     margin-left: 5.5rem;
+}
+
+@define-mixin atSmall {
+    @media (min-width: 530px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 800px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (min-width: 1200px) {
+        @mixin-content;
+    }
 }
 
 .cover {

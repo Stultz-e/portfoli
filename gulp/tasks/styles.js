@@ -4,6 +4,7 @@ autoprefixer = require('autoprefixer'),
 cssvars = require('postcss-simple-vars'),
 nested = require('postcss-nested'),
 cssImport = require('postcss-import');
+mixins = require('postcss-mixins');
 
 gulp.task('styles', function() {
     console.log("Imagine sass or PostCSS tasks running here.");

@@ -1,5 +1,17 @@
 html {
     font-size: 62.5%;
+
+    @mixin atSmall {
+        font-size: 62.5%;
+    }
+
+    @mixin atMedium {
+        font-size: 62.5%;
+    }
+
+    @mixin atLarge {
+        font-size: 62.5%;
+    }
 }
 
 a {

@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "base/_global.css";
 @import "base/_variables.css";
-@import "pages/_index.css";
+@import "base/_mixins.css";
+@import "modules/_index.css";
 @import "modules/_text.css";
 @import "modules/_buttons.css";
