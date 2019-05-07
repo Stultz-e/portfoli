@@ -1,16 +1,16 @@
 html {
-    font-size: 62.5%;
+    font-size: 52.5%;
 
     @mixin atSmall {
-        font-size: 50%;
+        font-size: 53.5%;
     }
 
     @mixin atMedium {
-        font-size: 62.5%;
+        font-size: 60.5%;
     }
 
     @mixin atLarge {
-        font-size: 62.5%;
+        font-size: 68.5%;
     }
 }
 
@@ -21,6 +21,8 @@ a {
 
 body {
     font-family: 'lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
     height: 100%;
 }
 
@@ -30,9 +32,13 @@ img {
 }
 
 .mb-md {
-    margin-top: 7.5rem;
+    @mixin atSmall {
+        margin-top: 7.5rem;
+    }
 }
 
 .ml-md {
-    margin-left: 5.5rem;
+    @mixin atSmall {
+        margin-left: 5.5rem;
+    }
 }
