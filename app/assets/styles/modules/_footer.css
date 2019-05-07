@@ -1,0 +1,7 @@
+footer {
+    background-color: $backgroundBlack;
+    height: 6rem;
+    p {
+        text-align: center;
+    }
+}
