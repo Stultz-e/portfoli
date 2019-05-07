@@ -7,7 +7,7 @@ nav {
     
     .logo {
         font-size: 2rem;
-        color: $sitelinks;
+        color: $siteLinks;
     }
 
     .site-nav {
@@ -17,10 +17,9 @@ nav {
         justify-content: space-between;
         width: 28%;
 
-
         a {
             text-decoration: none;
-            color: $sitelinks;
+            color: $siteLinks;
             cursor: pointer;
         }
     }
@@ -31,7 +30,7 @@ nav {
         align-items: center;
   
         li {
-            color: $sitelinks;
+            color: $siteLinks;
             list-style: none;
 
             &:not(:last-child) {
@@ -44,7 +43,7 @@ nav {
 
             a {
                 text-decoration: none;
-                color: $sitelinks;
+                color: $siteLinks;
                 cursor: pointer;
                 font-size: 2.6rem;
             }
