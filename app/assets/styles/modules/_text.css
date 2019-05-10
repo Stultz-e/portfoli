@@ -17,7 +17,7 @@ h1 {
 
     @mixin atSmall {
         font-size: 7.75em;
-        margin: 12rem 0 0;
+        margin: 10rem 0 0;
     }
 
     @mixin atLarge {

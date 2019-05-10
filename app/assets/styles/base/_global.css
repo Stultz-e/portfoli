@@ -10,7 +10,7 @@ html {
     }
 
     @mixin atLarge {
-        font-size: 68.5%;
+        font-size: 64.2%;
     }
 }
 

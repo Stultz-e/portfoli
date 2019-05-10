@@ -471,7 +471,7 @@ html {
 @media (min-width: 75em) {
 
 html {
-        font-size: 68.5%
+        font-size: 64.2%
 }
     }
 
@@ -554,7 +554,7 @@ img {
 @media (min-width: 50em) {
 
 .projects {
-        padding: 12rem 0rem 0rem
+        padding: 8rem 0rem 0rem
 }
     }
 
@@ -597,13 +597,6 @@ img {
 
 .projects__content {
             padding: 10rem 0
-    }
-    }
-
-@media (min-width: 75em) {
-
-.projects__content {
-            padding: 12rem 0
     }
     }
 
@@ -732,7 +725,7 @@ h1 {
 
 h1 {
         font-size: 7.75em;
-        margin: 12rem 0 0
+        margin: 10rem 0 0
 }
     }
 
@@ -877,4 +870,78 @@ nav .social-media-nav li a {
                 color: #c7c7c7;
                 cursor: pointer;
                 font-size: 2.6rem;
+            }
+
+.about-cover {
+    background-image: url('/assets/images/about-bg.png');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    position: relative;
+}
+
+.about-cover img {
+        height: auto;
+        max-width: 100%;
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        -webkit-transform: translateX(-29%);
+                transform: translateX(-29%);
+    }
+
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-align: center; 
+        -ms-flex-align: center; 
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.about__education {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; 
+        padding: 12rem 0;
+        max-width: 117rem;
+        margin: 0 auto;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+    }
+
+.about__education img {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 30%;
+                    flex: 0 0 30%;
+        }
+
+.about__education .info {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 2 60%;
+                    flex: 0 2 60%;
+
+
+        }
+
+.about__education .info h1 {
+                margin: 0;
+                line-height: 1;
+                text-align: left;
+            }
+
+.about__education .info h2 {
+                line-height: .5;
+                text-align: left;
             }
