@@ -1,5 +1,5 @@
 .case-study-bg {
-    background: $project-bg;
+    background: $projectBg;
 
     .line {
         height: 1px;
@@ -78,6 +78,7 @@
         flex: 0 1 100vh;
         align-self: center;
         padding-top: 4rem;
+        margin-left: auto;
 
         @mixin atLarge {
             padding-top: 0;

@@ -1140,6 +1140,7 @@ nav .social-media-nav li a {
         -ms-flex-item-align: center;
             align-self: center;
         padding-top: 4rem;
+        margin-left: auto;
         
     }
 
